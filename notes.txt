@@ -91,3 +91,7 @@ git branch
 git branch [branch name]
 	create a new branch
 	use checkout to switch to the new branch
+
+git remote add origin [uri]
+	add a git remote with the name origin
+	
