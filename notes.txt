@@ -43,11 +43,11 @@ git commit
 	2. Staging area - after a git add, not yet committed
 	3. Repository - after committing from a staging area
 	###
-
+	NB Modifications made after a staging are not part of the commit
+	###
 
 git log
  	shows us all the commit that were made
-
 
 git log --oneline
 	shows us a summary of the git commit history
