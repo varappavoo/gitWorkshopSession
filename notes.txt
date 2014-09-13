@@ -38,6 +38,12 @@ git commit
  	commit the changes that were made
  	the chosen editor will pop up to allow you to add a comment for this commit
  	###
+	Commit messages:
+	Present tense
+	Why is this necessary
+	50/70 rules - message description between 50 and 70 chars
+	###
+ 	###
 	Commits path:
 	1. Working directory - directory where one is working with all files
 	2. Staging area - after a git add, not yet committed
@@ -52,3 +58,8 @@ git log
 git log --oneline
 	shows us a summary of the git commit history
 
+git diff old new
+	shows us the change between two commits
+
+git diff
+	shows us the differences between the Staging area and Working directory
