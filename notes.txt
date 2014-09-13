@@ -19,4 +19,13 @@
 	* 	echo passwords.txt > .gitignore
  	*	.gitignore contains files that will be ignored by git
 
- 
+ git add [file]
+ 	tells git to start tracking specific files or folders
+
+ git commit
+ 	commit the changes that were made
+ 	the chosen editor will pop up to allow you to add a comment for this commit
+
+ git log
+ 	shows us all the commit that were made
+
