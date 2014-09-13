@@ -41,7 +41,7 @@ git commit
 	Commit messages:
 	Present tense
 	Why is this necessary
-	50/70 rules - message description between 50 and 70 chars
+	50/72 rules - message description between 50 and 70 chars
 	###
  	###
 	Commits path:
@@ -63,3 +63,6 @@ git diff old new
 
 git diff
 	shows us the differences between the Staging area and Working directory
+
+git add -p
+	patch mode - let selectively stage the change
