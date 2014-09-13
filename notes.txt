@@ -82,3 +82,12 @@ git checkout master
 
 git revert branch name/commit hash/etc
 	Commit master to a previously saved state
+
+Branches - parallel universes where we can work on different things in isolation
+git branch
+	give a list of all branches in the repository
+	show you yo which brach you are currently working
+
+git branch [branch name]
+	create a new branch
+	use checkout to switch to the new branch
