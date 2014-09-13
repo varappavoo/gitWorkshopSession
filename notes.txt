@@ -1,17 +1,17 @@
- mkdir gitWorkshopSession
- cd gitWorkshopSession
+mkdir gitWorkshopSession
+cd gitWorkshopSession
 
- git init
+git init
  	used to create a new git repository
 
- git config --global user.name "Vara Appavoo"
- git config --global user.email "p.appavoo@gmail.com"
- git config --global --add color.ui true
- git config --global core.editor "nano"
- touch notes.txt
+git config --global user.name "Vara Appavoo"
+git config --global user.email "p.appavoo@gmail.com"
+git config --global --add color.ui true
+git config --global core.editor "nano"
+touch notes.txt
  
 
- git status
+git status
  	tells us the status of the working directory
 
 .gitignore 
@@ -19,13 +19,21 @@
 	* 	echo passwords.txt > .gitignore
  	*	.gitignore contains files that will be ignored by git
 
- git add [file]
+git add [file]
  	tells git to start tracking specific files or folders
 
- git commit
+git commit
  	commit the changes that were made
  	the chosen editor will pop up to allow you to add a comment for this commit
 
- git log
+git log
  	shows us all the commit that were made
 
+After modifying a file:
+[do a git status]
+do a git add...
+[do a git status]
+do a git commit
+
+git log --online
+	shows us a summary of the git commit history
