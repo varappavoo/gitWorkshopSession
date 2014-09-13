@@ -71,3 +71,10 @@ git add -p
 git reset --hard
 	clean the working directory to match what the repository
 	useful after a patching 
+
+### move across time
+git checkout [branch name/commit_hash/etc] # that's HEAD
+	switches to that branch/commit/etc
+
+### to get back to the actual time
+git checkout master
