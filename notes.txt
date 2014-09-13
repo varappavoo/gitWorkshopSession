@@ -105,3 +105,6 @@ git push [remote] [branch]
 git pull [remote] [branch]
 e.g. git pull origin master
 	pull repo from master - commit and pus
+
+git clone [url]
+	Clone git repository from remote url
