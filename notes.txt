@@ -66,3 +66,8 @@ git diff
 
 git add -p
 	patch mode - let selectively stage the change
+
+### to be used carefully
+git reset --hard
+	clean the working directory to match what the repository
+	useful after a patching 
