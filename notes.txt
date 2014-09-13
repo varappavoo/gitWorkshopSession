@@ -1,0 +1,22 @@
+ mkdir gitWorkshopSession
+ cd gitWorkshopSession
+
+ git init
+ 	used to create a new git repository
+
+ git config --global user.name "Vara Appavoo"
+ git config --global user.email "p.appavoo@gmail.com"
+ git config --global --add color.ui true
+ git config --global core.editor "nano"
+ touch notes.txt
+ 
+
+ git status
+ 	tells us the status of the working directory
+
+.gitignore 
+	a file in your git folder that is created to contain all file that will be ignored by git
+	* 	echo passwords.txt > .gitignore
+ 	*	.gitignore contains files that will be ignored by git
+
+ 
