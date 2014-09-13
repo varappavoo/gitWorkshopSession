@@ -92,6 +92,12 @@ git branch [branch name]
 	create a new branch
 	use checkout to switch to the new branch
 
+<<<<<<< HEAD
 ### Merge - merge changes made by another branch into the current one, we use:
 git merge [branch name]
 	merge changes on [branch] to master
+=======
+git remote add origin [uri]
+	add a git remote with the name origin
+	
+>>>>>>> 6a4e99935086420d9b4be68a6575ce9423158e9c
