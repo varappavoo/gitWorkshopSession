@@ -80,7 +80,7 @@ git checkout [branch name/commit_hash/etc] # that's HEAD
 ### to get back to the actual time
 git checkout master
 
-git revert branch name/commit hash/etc
+git revert branch name/commit_hash/etc
 	Commit master to a previously saved state
 
 ### Branches - parallel universes where we can work on different things in isolation
