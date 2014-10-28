@@ -98,9 +98,14 @@ git merge [branch name]
 
 git remote add origin [uri]
 	add a git remote with the name origin
-
+	git remote add origin https://github.com/varappavoo/fvs.git
+ 
+Followed by a push
+	git push -u origin master
+	
+Update remote repo
 git push [remote] [branch]
-
+	git push -u origin master
 
 git pull [remote] [branch]
 e.g. git pull origin master
